@@ -23,7 +23,6 @@ app.use('/', (req, res) => {
                 res.write(errorData)
                 return res.end()
             })
-            
         }
         res.writeHead(200, {'Content-Type': 'text/html'})
         res.write(data);
